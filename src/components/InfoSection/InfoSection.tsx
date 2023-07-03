@@ -54,8 +54,10 @@ export default function InfoSection({}: Props) {
             need to take your training to the next level.
           </p>
         </div>
-
-        <Link href="/" className="text-yellow-500 hover:text-yellow-600">
+        <Link
+          href="/"
+          className="text-primary hover:text-yellow-600 hover:underline md:mx-auto max-w-[80%]"
+        >
           Learn more about our products
         </Link>
       </div>
