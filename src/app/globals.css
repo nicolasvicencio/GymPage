@@ -16,6 +16,10 @@ li {
   @apply text-gray-600;
 }
 
+.nav-link {
+  @apply hover:text-primary transition-all;
+}
+
 .header_img {
   position: relative;
   width: 100%;

@@ -5,8 +5,8 @@ type Props = {};
 
 export default function Contact({}: Props) {
   return (
-    <div className="contact_img p-20 ">
-      <section className="w-full min-h-full  ">
+    <div className="contact_img min-h-full">
+      <section className="w-full min-h-full p-10 ">
         <section className="w-[50%] flex flex-col gap-4 items-center justify-center min-h-full ">
           <h4 className="text-gray-400 text-5xl">
             YOUR FITNESS STARTS HERE SAVE TIME AND SIGN UP{" "}
@@ -20,6 +20,7 @@ export default function Contact({}: Props) {
           </Link>
         </section>
       </section>
+
     </div>
   );
 }

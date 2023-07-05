@@ -4,3 +4,4 @@ export * from "./InfoSection";
 export * from "./ProductMain";
 export * from "./icons";
 export * from "./Contact";
+export * from "./Footer";

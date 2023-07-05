@@ -1,4 +1,4 @@
-import { Contact, Featured, InfoSection } from "@/components";
+import { Contact, Featured, Footer, InfoSection } from "@/components";
 import ProductMain from "@/components/ProductMain/ProductMain";
 
 export default function Home() {
@@ -8,6 +8,7 @@ export default function Home() {
       <InfoSection />
       <ProductMain />
       <Contact />
+      <Footer/>
     </main>
   );
 }
