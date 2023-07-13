@@ -8,7 +8,6 @@ export default function Home() {
       <InfoSection />
       <ProductMain />
       <Contact />
-      <Footer/>
     </main>
   );
 }
